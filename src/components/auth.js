@@ -1,18 +1,18 @@
 export const loginCredentials = [{
   uid: "108659",
   password: "123456",
-  name: "Rajesh sharma",
-  email: "rajeshranjan22@gmail.com",
-  mobile: "9999999991",
+  name: "Manan Patel",
+  email: "manan.patel.cg@gmail.com",
+  mobile: "9512628557",
   university: "SUxCG 714",
 
-  image: "",
+  image: "https://res.cloudinary.com/dxzo7jfbn/image/upload/v1770271139/photo1_nsxmyy.jpg",
 
   attendance: {
     semester: "Semester 2",
     present: 126,
     total: 146,
-    bonus: 2,
+    bonus: 21,
     percentLabel: 88,
     startDate: "29/01/2026",
     endDate: "30/06/2026",

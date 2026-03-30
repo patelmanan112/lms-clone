@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Login from './components/login'
 import { Routes , Route} from 'react-router-dom'
 import StudentDashboard from './components/StudentDashboard'
+import Attendance from './components/Attendance'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/student' element={<StudentDashboard/>}/>
+      <Route path='/student/attendance' element= {<Attendance/>}></Route>
     </Routes>
     {/* <Home /> */}
   
