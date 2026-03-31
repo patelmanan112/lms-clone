@@ -7,6 +7,7 @@ import Login from './components/login'
 import { Routes , Route} from 'react-router-dom'
 import StudentDashboard from './components/StudentDashboard'
 import Attendance from './components/Attendance'
+import Chat from './components/Chat'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/student' element={<StudentDashboard/>}/>
       <Route path='/student/attendance' element= {<Attendance/>}></Route>
+      <Route path='/student/chat-groups' element = {<Chat/>}></Route>
     </Routes>
     {/* <Home /> */}
   
